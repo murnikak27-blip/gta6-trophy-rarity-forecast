@@ -1,9 +1,10 @@
-# GTA VI trophy rarity forecast
+# gta6-trophy-rarity-forecast
 
-An entry for make.fun's **gta6-trophy-rarity-forecast-01**: forecast, for
-every PlayStation 5 trophy of Grand Theft Auto VI, the share of tracked
-players who will have earned it one week after release, as printed by the
-trophy's Exophase page.
+[![make.fun · gta6-trophy-rarity-forecast-01](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![rank](https://make.fun/badge/gta6-trophy-rarity-forecast-01/murnikak27-blip/gta6-trophy-rarity-forecast/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![reward](https://make.fun/badge/gta6-trophy-rarity-forecast-01/murnikak27-blip/gta6-trophy-rarity-forecast/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+
+Forecasts every GTA VI PS5 trophy's Exophase earn rate one week after release, from the trophy page's read history: a trend fit blended with an earners-and-dilution model.
 
 ## What the program does
 
@@ -26,12 +27,12 @@ The spread around the median grows with the horizon and with how far the
 two legs disagree. The program is deterministic: two runs on the same
 case write the same bytes.
 
-## Running it
+## Run it
 
 ```sh
-mkdir -p out
-MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out python3 main.py
+mkdir -p out && MAKEFUN_INPUT_DIR=input MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-reads every `*.in` case file in the input directory and writes the
-matching `*.out` forecast files to the output directory.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=y32rxgm2&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
